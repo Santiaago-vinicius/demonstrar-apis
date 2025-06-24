@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demonstração de APIs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Minha Página de Demonstração de APIs</h1>
+
+    <section class="api-section">
+        <h2>1. Gerar Imagem Aleatória (Picsum Photos)</h2>
+        <button id="btn-picsum">Gerar Imagem</button>
+        <div id="picsum-output" class="output"></div>
+    </section>
+
+    <section class="api-section">
+        <h2>2. Consultar Dicionário (Inglês)</h2>
+        <input type="text" id="dictionary-input" placeholder="Digite uma palavra em inglês" value="keyboard">
+        <button id="btn-dictionary">Buscar Definição</button>
+        <div id="dictionary-output" class="output"></div>
+    </section>
+
+    <section class="api-section">
+        <h2>3. Criar Usuário (Reqres API - POST)</h2>
+        <button id="btn-reqres">Criar Usuário Fake</button>
+        <div id="reqres-output" class="output"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
